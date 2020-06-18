@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="-281 639 822 287" width="822" height="287">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.16 
+    <dc:date>2020-06-18 15:12:06 +0000</dc:date>
+  </metadata>
+  <g id="Arbeitsfl_che_1" stroke="none" stroke-dasharray="none" stroke-opacity="1" fill="none" fill-opacity="1">
+    <title>Arbeitsfläche 1</title>
+    <g id="Arbeitsfl_che_1: Ebene 1">
+      <title>Ebene 1</title>
+      <g id="Graphic_34">
+        <a xl:href="https://github.com/eblocker/eblocker/tree/develop/eblocker-certificate-validator">
+          <rect x="325" y="670" width="200" height="50" fill="white"/>
+          <rect x="325" y="670" width="200" height="50" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(330 676.552)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="23.296" y="15">eblocker-certificate-</tspan>
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="64.336" y="33.448">validator</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Graphic_35">
+        <a xl:href="https://github.com/eblocker/eblocker-dns">
+          <rect x="-80" y="825" width="200" height="50" fill="white"/>
+          <rect x="-80" y="825" width="200" height="50" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(-75 840.776)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="48.32" y="15">eblocker-dns</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Graphic_36">
+        <rect x="310" y="740" width="230" height="185" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(315 901.552)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="39.48" y="15">eblocker-icapserver</tspan>
+        </text>
+      </g>
+      <g id="Graphic_37">
+        <a xl:href="https://github.com/eblocker/eblocker/blob/develop/eblocker-icapserver/src/main/java/org/eblocker/server/common/network/unix/FirewallConfiguration.java">
+          <rect x="-280" y="640" width="40" height="280" fill="white"/>
+          <rect x="-280" y="640" width="40" height="280" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(-269.224 807.096) rotate(-90)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Firewall</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Graphic_38">
+        <a xl:href="https://github.com/eblocker/squid">
+          <rect x="-80" y="680" width="200" height="60" fill="white"/>
+          <rect x="-80" y="680" width="200" height="60" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(-75 700.776)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="74.104" y="15">Squid</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Graphic_46">
+        <a xl:href="https://github.com/eblocker/eblocker/tree/develop/eblocker-icapserver">
+          <rect x="325" y="755" width="200" height="50" fill="white"/>
+          <rect x="325" y="755" width="200" height="50" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(330 770.776)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="52.64" y="15">ICAP server</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Graphic_47">
+        <a xl:href="https://github.com/eblocker/eblocker/blob/develop/eblocker-icapserver/src/main/java/org/eblocker/server/common/blacklist/DomainBlockingNetworkService.java">
+          <rect x="325" y="825" width="200" height="50" fill="white"/>
+          <rect x="325" y="825" width="200" height="50" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(330 831.552)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="38.984" y="15">domainblacklist</tspan>
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="69.672" y="33.448">service</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Line_48">
+        <path d="M 120 725 L 170 725 L 170 850" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Line_49">
+        <line x1="120" y1="695" x2="315.1" y2="695" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Line_50">
+        <line x1="120" y1="850" x2="315.1" y2="850" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Line_51">
+        <path d="M 120 710 L 220 710 L 220 780 L 315.1 780" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Line_52">
+        <line x1="-240" y1="710" x2="-89.9" y2="710" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Line_53">
+        <line x1="-240" y1="850" x2="-89.9" y2="850" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Graphic_57">
+        <rect x="241.34224" y="835.776" width="45.584" height="28.447998" fill="white"/>
+        <text transform="translate(246.34224 840.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">7777</tspan>
+        </text>
+      </g>
+      <g id="Graphic_58">
+        <rect x="242.09895" y="680.776" width="45.584" height="28.447998" fill="white"/>
+        <text transform="translate(247.09895 685.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">7443</tspan>
+        </text>
+      </g>
+      <g id="Graphic_59">
+        <rect x="235.31142" y="765.776" width="45.584" height="28.447998" fill="white"/>
+        <text transform="translate(240.31142 770.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">1344</tspan>
+        </text>
+      </g>
+      <g id="Graphic_60">
+        <rect x="-189.73497" y="835.776" width="45.584" height="28.447998" fill="white"/>
+        <text transform="translate(-184.73497 840.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">5300</tspan>
+        </text>
+      </g>
+      <g id="Graphic_61">
+        <rect x="-215.90386" y="695.776" width="90.064" height="28.447998" fill="white"/>
+        <text transform="translate(-210.90385 700.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">3128, 3130</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
