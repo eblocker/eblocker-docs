@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="159 59 541 887" width="541" height="887">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="StickArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -7 18 14" markerWidth="18" markerHeight="14" color="black">
+      <g>
+        <path d="M 16 0 L 0 0 M 0 -6 L 16 0 L 0 6" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica Neue" font-size="13" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.16 
+    <dc:date>2020-06-19 09:38:08 +0000</dc:date>
+  </metadata>
+  <g id="Arbeitsfl_che_1" fill-opacity="1" stroke-opacity="1" stroke="none" fill="none" stroke-dasharray="none">
+    <title>Arbeitsfläche 1</title>
+    <g id="Arbeitsfl_che_1: Ebene 1">
+      <title>Ebene 1</title>
+      <g id="Graphic_3">
+        <path d="M 170 120 L 250 120 C 255.52285 120 260 124.47715 260 130 L 260 170 C 260 175.52285 255.52285 180 250 180 L 170 180 C 164.47715 180 160 175.52285 160 170 L 160 130 C 160 124.47715 164.47715 120 170 120 Z" fill="white"/>
+        <path d="M 170 120 L 250 120 C 255.52285 120 260 124.47715 260 130 L 260 170 C 260 175.52285 255.52285 180 250 180 L 170 180 C 164.47715 180 160 175.52285 160 170 L 160 130 C 160 124.47715 164.47715 120 170 120 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(165 131.552)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="16.56" y="15">Receive</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="6.032" y="33.448">DNS query</tspan>
+        </text>
+      </g>
+      <g id="Graphic_5">
+        <circle cx="210" cy="70" r="10.000015979019" fill="black"/>
+        <circle cx="210" cy="70" r="10.000015979019" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_6">
+        <line x1="210" y1="80.000005" x2="210" y2="102.1" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Group_10">
+        <g id="Graphic_8">
+          <circle cx="310" cy="930" r="10.000015979019" fill="black"/>
+          <circle cx="310" cy="930" r="10.000015979019" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_9">
+          <circle cx="310" cy="930" r="15.0000239685285" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+      </g>
+      <g id="Graphic_19">
+        <path d="M 210 220 L 240 240 L 210 260 L 180 240 Z" fill="white"/>
+        <path d="M 210 220 L 240 240 L 210 260 L 180 240 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_36">
+        <path d="M 210 495 L 210 860 L 262.1 860" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Line_44">
+        <line x1="210" y1="180" x2="210" y2="202.1" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Line_45">
+        <path d="M 240 240 L 475 240 L 475 292.1" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Graphic_47">
+        <path d="M 425 310 L 525 310 C 530.52285 310 535 314.47715 535 320 L 535 360 C 535 365.52285 530.52285 370 525 370 L 425 370 C 419.47715 370 415 365.52285 415 360 L 415 320 C 415 314.47715 419.47715 310 425 310 Z" fill="white"/>
+        <path d="M 425 310 L 525 310 C 530.52285 310 535 314.47715 535 320 L 535 360 C 535 365.52285 530.52285 370 525 370 L 425 370 C 419.47715 370 415 365.52285 415 360 L 415 320 C 415 314.47715 419.47715 310 425 310 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(420 321.552)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="15.736" y="15">Redirect to</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="8.32" y="33.448">eblocker-dns</tspan>
+        </text>
+      </g>
+      <g id="Graphic_48">
+        <path d="M 210 320 L 240 340 L 210 360 L 180 340 Z" fill="white"/>
+        <path d="M 210 320 L 240 340 L 210 360 L 180 340 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_49">
+        <line x1="210" y1="260" x2="210" y2="302.1" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Line_50">
+        <line x1="240" y1="340" x2="397.1" y2="340" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Graphic_51">
+        <rect x="266.81388" y="330.318" width="87.785" height="19.363998" fill="white"/>
+        <text transform="translate(268.81388 332.318)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="13" font-weight="400" fill="black" x="0" y="12">[DNS enabled]</tspan>
+        </text>
+      </g>
+      <g id="Graphic_52">
+        <rect x="192.959" y="276.243" width="34.082" height="19.363998" fill="white"/>
+        <text transform="translate(194.959 278.243)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="13" font-weight="400" fill="black" x="0" y="12">[else]</tspan>
+        </text>
+      </g>
+      <g id="Graphic_53">
+        <path d="M 170 435 L 250 435 C 255.52285 435 260 439.47715 260 445 L 260 485 C 260 490.52285 255.52285 495 250 495 L 170 495 C 164.47715 495 160 490.52285 160 485 L 160 445 C 160 439.47715 164.47715 435 170 435 Z" fill="white"/>
+        <path d="M 170 435 L 250 435 C 255.52285 435 260 439.47715 260 445 L 260 485 C 260 490.52285 255.52285 495 250 495 L 170 495 C 164.47715 495 160 490.52285 160 485 L 160 445 C 160 439.47715 164.47715 435 170 435 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(165 446.552)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="8.272" y="15">IP forward</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="14.624" y="33.448">to router</tspan>
+        </text>
+      </g>
+      <g id="Line_54">
+        <line x1="210" y1="360" x2="210" y2="417.1" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Graphic_55">
+        <rect x="192.959" y="381.69033" width="34.082" height="19.363998" fill="white"/>
+        <text transform="translate(194.959 383.69033)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="13" font-weight="400" fill="black" x="0" y="12">[else]</tspan>
+        </text>
+      </g>
+      <g id="Graphic_56">
+        <rect x="278.6403" y="230.318" width="149.223" height="19.363998" fill="white"/>
+        <text transform="translate(280.6403 232.318)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="13" font-weight="400" fill="black" x="8952838e-19" y="12">[target IP == eBlocker IP]</tspan>
+        </text>
+      </g>
+      <g id="Graphic_57">
+        <path d="M 415 740 L 535 740 C 540.52285 740 545 744.47715 545 750 L 545 790 C 545 795.52285 540.52285 800 535 800 L 415 800 C 409.47715 800 405 795.52285 405 790 L 405 750 C 405 744.47715 409.47715 740 415 740 Z" fill="white"/>
+        <path d="M 415 740 L 535 740 C 540.52285 740 545 744.47715 545 750 L 545 790 C 545 795.52285 540.52285 800 535 800 L 415 800 C 409.47715 800 405 795.52285 405 790 L 405 750 C 405 744.47715 409.47715 740 415 740 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(410 751.552)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="41" y="15">Return </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="9.4" y="33.448">169.254.93.109</tspan>
+        </text>
+      </g>
+      <g id="Line_58">
+        <path d="M 475 800 L 475 860 L 357.9 860" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Graphic_59">
+        <path d="M 260 630 L 360 630 C 365.52285 630 370 634.47715 370 640 L 370 680 C 370 685.52285 365.52285 690 360 690 L 260 690 C 254.47715 690 250 685.52285 250 680 L 250 640 C 250 634.47715 254.47715 630 260 630 Z" fill="white"/>
+        <path d="M 260 630 L 360 630 C 365.52285 630 370 634.47715 370 640 L 370 680 C 370 685.52285 365.52285 690 360 690 L 260 690 C 254.47715 690 250 685.52285 250 680 L 250 640 C 250 634.47715 254.47715 630 260 630 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(255 641.552)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="26.56" y="15">Resolve </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="28.32" y="33.448">domain</tspan>
+        </text>
+      </g>
+      <g id="Graphic_60">
+        <path d="M 415 540 L 535 540 C 540.52285 540 545 544.47715 545 550 L 545 590 C 545 595.52285 540.52285 600 535 600 L 415 600 C 409.47715 600 405 595.52285 405 590 L 405 550 C 405 544.47715 409.47715 540 415 540 Z" fill="white"/>
+        <path d="M 415 540 L 535 540 C 540.52285 540 545 544.47715 545 550 L 545 590 C 545 595.52285 540.52285 600 535 600 L 415 600 C 409.47715 600 405 595.52285 405 590 L 405 550 C 405 544.47715 409.47715 540 415 540 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(410 551.552)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="14.608" y="15">Query domain </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="8.112" y="33.448">blacklist service</tspan>
+        </text>
+      </g>
+      <g id="Graphic_61">
+        <path d="M 475 640 L 505 660 L 475 680 L 445 660 Z" fill="white"/>
+        <path d="M 475 640 L 505 660 L 475 680 L 445 660 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_62">
+        <path d="M 475 420 L 505 440 L 475 460 L 445 440 Z" fill="white"/>
+        <path d="M 475 420 L 505 440 L 475 460 L 445 440 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_63">
+        <line x1="475" y1="600" x2="475" y2="622.1" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Line_64">
+        <line x1="475" y1="680" x2="475" y2="722.1" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Graphic_65">
+        <rect x="430.256" y="693.1078" width="89.488" height="19.363998" fill="white"/>
+        <text transform="translate(432.256 695.1078)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="13" font-weight="400" fill="black" x="5968559e-19" y="12">[block domain]</tspan>
+        </text>
+      </g>
+      <g id="Line_66">
+        <line x1="445" y1="660" x2="387.9" y2="660" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Graphic_67">
+        <rect x="394.7003" y="650.318" width="34.082" height="19.363998" fill="white"/>
+        <text transform="translate(396.7003 652.318)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="13" font-weight="400" fill="black" x="0" y="12">[else]</tspan>
+        </text>
+      </g>
+      <g id="Line_68">
+        <line x1="475" y1="370" x2="475" y2="402.1" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Line_69">
+        <line x1="475" y1="460" x2="475" y2="522.1" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Graphic_70">
+        <rect x="435.0855" y="483.3759" width="79.829" height="19.363998" fill="white"/>
+        <text transform="translate(437.0855 485.3759)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="13" font-weight="400" fill="black" x="7673862e-19" y="12">[filtered peer]</tspan>
+        </text>
+      </g>
+      <g id="Line_71">
+        <path d="M 445 440 L 310 440 L 310 612.1" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Graphic_72">
+        <rect x="292.959" y="453.75575" width="34.082" height="19.363998" fill="white"/>
+        <text transform="translate(294.959 455.75575)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="13" font-weight="400" fill="black" x="0" y="12">[else]</tspan>
+        </text>
+      </g>
+      <g id="Graphic_73">
+        <path d="M 310 840 L 340 860 L 310 880 L 280 860 Z" fill="white"/>
+        <path d="M 310 840 L 340 860 L 310 880 L 280 860 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_74">
+        <line x1="310" y1="690" x2="310" y2="722.1" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Line_75">
+        <line x1="310" y1="880" x2="310" y2="897.1" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Graphic_76">
+        <path d="M 260 740 L 360 740 C 365.52285 740 370 744.47715 370 750 L 370 790 C 370 795.52285 365.52285 800 360 800 L 260 800 C 254.47715 800 250 795.52285 250 790 L 250 750 C 250 744.47715 254.47715 740 260 740 Z" fill="white"/>
+        <path d="M 260 740 L 360 740 C 365.52285 740 370 744.47715 370 750 L 370 790 C 370 795.52285 365.52285 800 360 800 L 260 800 C 254.47715 800 250 795.52285 250 790 L 250 750 C 250 744.47715 254.47715 740 260 740 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(255 751.552)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="31" y="15">Return </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="22.104" y="33.448">response</tspan>
+        </text>
+      </g>
+      <g id="Line_77">
+        <line x1="310" y1="800" x2="310" y2="822.1" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+      </g>
+      <g id="Graphic_78">
+        <text transform="translate(555 555)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="13" font-weight="400" fill="black" x="58264504e-20" y="12">eblocker-icapserver</tspan>
+          <tspan font-family="Helvetica Neue" font-size="13" font-weight="400" fill="black" x="21.892" y="27.364">at port 7777</tspan>
+        </text>
+      </g>
+      <g id="Graphic_79">
+        <text transform="translate(550 460)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="13" font-weight="400" fill="black" x="0" y="12">Filtered peer:</tspan>
+          <tspan font-family="Helvetica Neue" font-size="13" font-weight="400" fill="black" x="0" y="27.364">• device enabled and</tspan>
+          <tspan font-family="Helvetica Neue" font-size="13" font-weight="400" fill="black" x="0" y="42.727997">• parental controls or</tspan>
+          <tspan font-family="Helvetica Neue" font-size="13" font-weight="400" fill="black" x="0" y="58.091995">• domain filter enabled</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
