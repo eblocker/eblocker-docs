@@ -2,10 +2,12 @@
 
 Prerequisite: You need root and SSH access on the eBlocker.
 
-Build a stage bootstrap package, e.g. for Raspbian Buster
+Build a stage bootstrap package with Maven, e.g. for Raspbian Buster
 
 	cd eblocker-bootstrap
 	mvn -Praspbian-buster-stage clean package
+
+(For a Banana Pi M2+ board, use the profile option `-Parmbian-buster-stage`.)
 
 On the eBlocker, uninstall the bootstrap package:
 
