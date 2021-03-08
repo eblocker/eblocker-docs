@@ -1,6 +1,9 @@
 # Convert an eBlocker to the Stage environment
 
-Prerequisite: You need root and SSH access on the eBlocker.
+Prerequisites:
+
+* You need root and SSH access on the eBlocker
+* eBlocker must be configured in the automatic network mode (because `/etc/network/interfaces` is overwritten with the default configuration)
 
 Build a stage bootstrap package with Maven, e.g. for Raspbian Buster
 
