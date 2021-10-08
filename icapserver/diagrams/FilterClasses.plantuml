@@ -1,0 +1,25 @@
+@startuml
+interface Filter
+abstract AbstractFilter
+abstract LearningFilter
+Filter <|-- AbstractFilter
+AbstractFilter <|-- UrlFilter
+
+class FilterList {
+    List<Filter> filters
+}
+
+AbstractFilter <|-- FilterList
+AbstractFilter <|-- LearningFilter
+LearningFilter <|-- AsynchronousLearningFilter
+LearningFilter <|-- SynchronousLearningFilter
+LearningFilter <|-- NotLearningFilter
+
+interface FilterContainer
+interface FilterDomainContainer
+
+FilterContainer <|-- FilterDomainContainer
+FilterDomainContainer <|-- LearningFilter
+
+FilterStore *-- FilterDomainContainer: container
+@enduml

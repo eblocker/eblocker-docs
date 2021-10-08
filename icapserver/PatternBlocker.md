@@ -58,3 +58,7 @@ stored in a filter store as a
 filters are sorted by
 [priority](https://github.com/eblocker/eblocker/blob/develop/eblocker-icapserver/src/main/java/org/eblocker/server/icap/filter/FilterPriority.java)
 in the list.
+
+## Filter Classes
+
+![Filter Classes Overview](diagrams/FilterClasses.png)
