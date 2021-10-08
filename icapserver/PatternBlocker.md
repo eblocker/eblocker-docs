@@ -48,6 +48,8 @@ There are two main learning filters:
   learns the mapping after filtering, i.e. the first result of the
   filter is NO_DECISION.
 
+For performance reasons the `AsynchronousLearningFilter` should be used for large filter lists.
+
 ## Filter List
 
 Filters for a specific domain (or the wildcard domain `*.*`) are
