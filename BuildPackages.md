@@ -16,7 +16,7 @@ Create user `icapd`:
 
 ## Build bootstrap package
 
-The bootstrap package can be only be installed on the architecture it was built for.
+The bootstrap package can only be installed on the architecture it was built for.
 
 In this example the target architecture is `amd64`, so the profile `amd64-buster` is used:
 
@@ -84,7 +84,7 @@ The Java components are architecture independent.
     cd eblocker-registration-api && mvn install && cd ..
     cd netty-icap                && mvn install && cd ..
 
-### Build ICAP server
+### Build ICAP server, certificate validator and UI
 
     git clone https://github.com/eblocker/eblocker
     export OPENSSL_CONF=/etc/ssl/
