@@ -37,8 +37,6 @@ built on the same architecture as the target, e.g. `amd64` or `armhf`.
 
 ### Build network tools
 
-The network tools are platform dependent:
-
     sudo apt-get install libnet1-dev libpcap-dev libhiredis-dev
     
     git clone https://github.com/eblocker/eblocker-network-tools.git
