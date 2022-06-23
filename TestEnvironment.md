@@ -1,4 +1,6 @@
-# Convert an eBlocker to the Stage environment
+# Convert an eBlocker to the Test environment
+
+The Test environment contains the latest development builds.
 
 Prerequisites:
 
@@ -9,12 +11,12 @@ Build a stage bootstrap package with Maven, e.g. for Raspbian Buster
 
     git clone https://github.com/eblocker/eblocker-bootstrap.git
     cd eblocker-bootstrap
-    mvn -Praspbian-buster-stage clean package
+    mvn -Praspbian-buster-test clean package
 
 Other profile options are:
 
-* `-Parmbian-buster-stage` for a Banana Pi M2+ board
-* `-Pamd64-buster-stage` for the eBlocker VM
+* `-Parmbian-buster-test` for a Banana Pi M2+ board
+* `-Pamd64-buster-test` for the eBlocker VM
 
 On the eBlocker, uninstall the bootstrap package:
 
@@ -26,10 +28,10 @@ Copy the stage bootstrap package from `eblocker-bootstrap/target` to the eBlocke
 
 Create the configuration file `/opt/eblocker-icap/conf/configuration.properties` with the following content:
 
-    registration.truststore.resource = classpath:stage-ca/eblocker-truststore.jks
-    baseurl.apt = https://apt.stage.eblocker.com
-    baseurl.api = https://api.stage.eblocker.com
-    baseurl.my  = https://my.stage.eblocker.com
+    registration.truststore.resource = classpath:default-ca/eblocker-truststore.jks
+    baseurl.apt = https://apt.test.eblocker.com
+    baseurl.api = https://api.test.eblocker.com
+    baseurl.my  = https://my.test.eblocker.com
 
 Stop the Icapserver, remove the registration and reboot:
 
