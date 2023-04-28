@@ -79,10 +79,12 @@ The Java components are architecture independent.
     git clone https://github.com/eblocker/eblocker-crypto.git
     git clone https://github.com/eblocker/eblocker-registration-api.git
     git clone https://github.com/eblocker/netty-icap.git
+    git clone https://github.com/eblocker/RestExpress.git
     cd eblocker-top              && mvn install && cd ..
     cd eblocker-crypto           && mvn install && cd ..
     cd eblocker-registration-api && mvn install && cd ..
     cd netty-icap                && mvn install && cd ..
+    cd RestExpress               && mvn install && cd ..
 
 ### Build ICAP server, certificate validator and UI
 
