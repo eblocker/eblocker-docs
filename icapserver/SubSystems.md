@@ -97,9 +97,10 @@ sub-systems and service classes (with priorities in brackets):
     HTTPS_SERVER
         [0]
             http.server.SSLContextHandler
-            common.squid.SquidConfigController
         [100]
             common.ssl.SslService
+        [150]
+            common.squid.SquidConfigController
         [200]
             common.openvpn.OpenVpnService
 
