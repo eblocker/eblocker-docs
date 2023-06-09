@@ -7,7 +7,7 @@ Prerequisites:
 * You need root and SSH access on the eBlocker
 * eBlocker must be configured in the automatic network mode (because `/etc/network/interfaces` is overwritten with the default configuration)
 
-Build a stage bootstrap package with Maven, e.g. for Raspbian Buster
+Build a test bootstrap package with Maven, e.g. for Raspbian Buster
 
     git clone https://github.com/eblocker/eblocker-bootstrap.git
     cd eblocker-bootstrap
@@ -22,7 +22,7 @@ On the eBlocker, uninstall the bootstrap package:
 
     apt-get remove eblocker-bootstrap
 
-Copy the stage bootstrap package from `eblocker-bootstrap/target` to the eBlocker and install it:
+Copy the test bootstrap package from `eblocker-bootstrap/target` to the eBlocker and install it:
 
     dpkg -i eblocker-bootstrap_..._all.deb
 
