@@ -62,3 +62,16 @@ in the list.
 ## Filter Classes
 
 ![Filter Classes Overview](diagrams/FilterClasses.png)
+
+## HTTP Response
+
+If the pattern blocker blocks a URL, it usually returns an SVG image
+containing a transparent pixel.
+
+To avoid the problem of an empty browser window an onload handler
+checks whether the SVG is loaded as the top document. In this case the
+browser is redirected to an eBlocker blocking page.
+
+For some specific URLs [surrogate
+scripts](https://github.com/eblocker/eblocker/tree/develop/eblocker-icapserver/src/main/resources/surrogates)
+are returned instead of the SVG image.
