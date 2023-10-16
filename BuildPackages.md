@@ -73,6 +73,10 @@ built on the same architecture as the target, e.g. `amd64` or `armhf`.
 
 The Java components are architecture independent.
 
+The RestExpres project needs the `JAVA_HOME` variable:
+
+    export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+
 ### Build libraries
 
     git clone https://github.com/eblocker/eblocker-top.git
