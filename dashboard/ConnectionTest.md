@@ -73,3 +73,18 @@ The expected result is `204 No Content`. This is configured in the [special bloc
 	NO_CONTENT	HIGHEST	setup.eblocker.org	ENDSWITH	/_check_/pattern-blocker	-	-	-
 
 If the above rule would not work, the server at `setup.eblocker.org` should return `404 Not Found`.
+
+## IPv6 Filtering
+
+This is the `ipv6RoutingTest` which can be checked with
+
+    curl -i http://ipv6.eblocker.org/_check_/routing
+
+The expected result is `204 No Content`. The URL path is hardwired in
+`RedirectFromSetupPageProcessor` (see section "Web filtering" above).
+
+Note that the name `ipv6.eblocker.org` is only resolved to an IPv6
+address (AAAA). There is no IPv4 (A) record for this name. So if you
+do not have IPv6 connectivity, the above `curl` command will complain:
+
+    curl: (6) Could not resolve host: ipv6.eblocker.org
