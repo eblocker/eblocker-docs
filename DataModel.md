@@ -106,6 +106,7 @@ integers, dates/times, IPs.
 | `privacy_extensions_enabled` | Boolean | Whether IPv6 privacy extensions are enabled |
 | `ProductInfo:0` | JSON: [ProductInfo](https://github.com/eblocker/eblocker-registration-api/blob/develop/src/main/java/org/eblocker/registration/ProductInfo.java) | Contains info about what the customer has licensed (BAS/PRO/FAM/etc.) |
 | `recorded_domains:<DeviceID>:<timestamp>` | JSON: [RecordedDomainBin](https://github.com/eblocker/eblocker/blob/develop/eblocker-icapserver/src/main/java/org/eblocker/server/common/recorder/RecordedDomainBin.java) | Contains one hour of recorded domains |
+| `RecordedTransaction:<int>` | JSON: [RecordedTransaction](https://github.com/eblocker/eblocker/blob/develop/eblocker-icapserver/src/main/java/org/eblocker/server/common/recorder/RecordedTransaction.java) | A transacion recorded by: Blocker / Analysis Tool |
 | `resolved_dns_gateway` | String (IP) | Is set to the router's IP address if common router names (e.g. `fritz.box`) have been resolved |
 | `router_advertisements_enabled` | Boolean | Whether eBlocker should send IPv6 router advertisements |
 | `showSplashScreen` | Boolean | Whether the release notes should be shown when the settings are opened |
