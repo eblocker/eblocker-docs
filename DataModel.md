@@ -78,6 +78,7 @@ integers, dates/times, IPs.
 | `do_not_show_reminder` | Boolean | If the eBlocker should not display the license expiration reminder |
 | `DynDnsConfig` | JSON: [DynDnsConfig](https://github.com/eblocker/eblocker/blob/develop/eblocker-icapserver/src/main/java/org/eblocker/server/common/data/DynDnsConfig.java) | Configuration for eBlocker Mobile's DynDNS service |
 | `EblockerDnsServerState` | JSON: [EblockerDnsServerState](https://github.com/eblocker/eblocker/blob/develop/eblocker-icapserver/src/main/java/org/eblocker/server/common/data/dns/EblockerDnsServerState.java) | State of the DNS server running on the eBlocker (e.g. running) |
+| `ExternalDefinition:<int>` | JSON: [ExternalDefinition](https://github.com/eblocker/eblocker/blob/develop/eblocker-icapserver/src/main/java/org/eblocker/server/common/blocker/ExternalDefinition.java) | External filter lists |
 | `event_last_seen` | JSON: [Event](https://github.com/eblocker/eblocker/blob/develop/eblocker-icapserver/src/main/java/org/eblocker/server/common/data/events/Event.java) | The last event seen (Adminconsole / System / Events) |
 | `events` | List of JSON: [Event](https://github.com/eblocker/eblocker/blob/develop/eblocker-icapserver/src/main/java/org/eblocker/server/common/data/events/Event.java) | All events (Adminconsole / System / Events) |
 | `FailedConnectionsEntity` | JSON: [FailedConnectionsEntity](https://github.com/eblocker/eblocker/blob/develop/eblocker-icapserver/src/main/java/org/eblocker/server/common/squid/FailedConnectionsEntity.java) | Failed Squid TLS connections |
