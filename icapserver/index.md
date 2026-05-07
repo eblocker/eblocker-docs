@@ -7,3 +7,5 @@
 [eBlocker Mobile](eBlocker_Mobile.html)
 
 [Source code](https://github.com/eblocker/eblocker/tree/develop/eblocker-icapserver)
+
+[Java API Docs](/apidocs/eblocker-icapserver/)
