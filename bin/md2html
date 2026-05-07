@@ -1,0 +1,49 @@
+#!/usr/bin/env python3
+
+import sys
+import subprocess
+import io
+from pathlib import Path
+import re
+
+# Configuration:
+pandoc_command = ['pandoc',
+                  '-f', 'gfm',                        # GitHub-flavored Markdown
+                  '--toc',                            # table of contents
+                  '--standalone',                     # generate complete HTML document
+                  '-V', 'maxwidth=900px',             # by default the body is very narrow
+                  '-V', 'monobackgroundcolor=#f6f8fa' # highlight code
+                  ]
+
+if len(sys.argv) != 3:
+    sys.exit(f'usage: {sys.argv[0]} <markdown input file> <html output file>')
+
+_, markdown_file, html_file = sys.argv
+
+h1_pattern = re.compile(r'^# (.*)')
+top_line = '<hr style="border-color: #ff4500;">'
+footer = '\n'.join(['',
+                    '<hr style="border-color: #ff4500;">',
+                    '<div style="align-items: center; display: flex;">',
+                    '<span><a href="/">developer.eblocker.org</a></span>',
+                    '<span style="flex: 1;"></span>',
+                    '<span><a href="https://github.com/eblocker">github.com/eblocker</a></span>',
+                    '<span style="flex: 1;"></span>',
+                    '<span><a href="https://eblocker.org/">eBlocker Open Source</a></span>',
+                    '</div>'])
+
+# Add a YAML metadata block (only understood by pandoc)
+def add_metadata(code):
+    # For the title we look for the first H1 heading
+    code = h1_pattern.sub(f'---\ntitle: \\1\n---\n\n{top_line}\n', code, count=1)
+    return code + footer
+
+def get_html(code):
+    code = add_metadata(code)
+    result = subprocess.run(pandoc_command, text=True, input=code, capture_output=True, check=True)
+    return result.stdout
+
+with open(markdown_file) as input:
+    code = input.read()
+    with open(html_file, 'w') as output:
+        print(get_html(code), file=output)
