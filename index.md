@@ -4,11 +4,11 @@
 
 [User interface](ui.html)
 
-[ICAP Server](icapserver)
+[ICAP server](icapserver)
 
-[DNS](https://github.com/eblocker/eblocker-coredns)
+[DNS server](https://github.com/eblocker/eblocker-coredns)
 
-[Squid Proxy](https://github.com/eblocker/eblocker-squid)
+[Squid proxy](https://github.com/eblocker/eblocker-squid)
 
 [Database](db.html)
 
