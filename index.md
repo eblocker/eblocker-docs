@@ -10,6 +10,8 @@
 
 [Squid proxy](https://github.com/eblocker/eblocker-squid)
 
+[Certificate validator](CertificateValidator.html)
+
 [Database](db.html)
 
 ## Concepts
