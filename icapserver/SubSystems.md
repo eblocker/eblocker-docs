@@ -4,17 +4,17 @@ Many service classes are organized into sub-systems in the ICAP
 server. These sub-system services are initialized in a specific order defined
 by:
 
-1. The order number of the sub-system (see enum [SubSystem](https://github.com/eblocker/eblocker/blob/develop/eblocker-icapserver/src/main/java/org/eblocker/server/common/data/systemstatus/SubSystem.java))
+1. The order number of the sub-system (see enum [SubSystem](/apidocs/eblocker-icapserver/org/eblocker/server/common/data/systemstatus/SubSystem.html))
 1. The priority of the service
 
 The priority can be specified as an attribute of the
-[@SubSystemService](https://github.com/eblocker/eblocker/blob/develop/eblocker-icapserver/src/main/java/org/eblocker/server/common/startup/SubSystemService.java)
+[@SubSystemService](/apidocs/eblocker-icapserver/org/eblocker/server/common/startup/SubSystemService.html)
 annotation. Services with a smaller priority are initialized earlier.
 
 The @SubSystemService annotation only makes sense for singleton classes.
 
 The
-[EblockerServerApp](https://github.com/eblocker/eblocker/blob/develop/eblocker-icapserver/src/main/java/org/eblocker/server/app/EblockerServerApp.java)
+[EblockerServerApp](/apidocs/eblocker-icapserver/org/eblocker/server/app/EblockerServerApp.html)
 automatically calls all initialization methods of sub-system services
 in the defined order and installs shutdown-hooks for their shutdown
 methods.
@@ -24,14 +24,14 @@ Service initialization methods are annotated with @SubSystemInit, shutdown metho
 ## Runtime Check During Startup 
 
 The
-[SubSystemUsageInterceptor](https://github.com/eblocker/eblocker/blob/develop/eblocker-icapserver/src/main/java/org/eblocker/server/common/startup/SubSystemUsageInterceptor.java)
+[SubSystemUsageInterceptor](/apidocs/eblocker-icapserver/org/eblocker/server/common/startup/SubSystemUsageInterceptor.html)
 ensures that service methods can only be called after all sub-systems
 with a lower order number have been initialized.
 
 However, it is not checked whether a service has itself been initialized
 before any of its methods are called. Some services check this
 themselves, for example
-[SslService](https://github.com/eblocker/eblocker/blob/develop/eblocker-icapserver/src/main/java/org/eblocker/server/common/ssl/SslService.java).
+[SslService](/apidocs/eblocker-icapserver/org/eblocker/server/common/ssl/SslService.html).
 
 See also: [AOP in Guice](https://github.com/google/guice/wiki/AOP)
 

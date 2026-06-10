@@ -40,7 +40,7 @@ There is no migration that updates the schema directly to the latest version.
 There are only migrations to higher schema numbers.
 
 The migrations are maintained in package
-[org.eblocker.server.common.data.migrations](https://github.com/eblocker/eblocker/tree/develop/eblocker-icapserver/src/main/java/org/eblocker/server/common/data/migrations).
+[org.eblocker.server.common.data.migrations](/apidocs/eblocker-icapserver/org/eblocker/server/common/data/migrations/package-summary.html).
 
 ## Stored Data
 
