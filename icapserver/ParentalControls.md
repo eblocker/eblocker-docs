@@ -6,9 +6,10 @@
 
 ## Devices
 
-By default a device has a unique system user. This is the owner of the
-device if it is not assigned to a user in the parental controls
-settings.
+By default a
+[device](/apidocs/eblocker-icapserver/org/eblocker/server/common/data/Device.html)
+has a unique system user. This is the owner of the device if it is not
+assigned to a user in the parental controls settings.
 
 A device can be assigned to a user (owner).
 
@@ -18,9 +19,12 @@ The operating user is shown in the dashboard title bar next to the device name.
 
 ## Users
 
-A user has a dashboard layout (for 1, 2, 3 columns).
+A [user](/apidocs/eblocker-icapserver/org/eblocker/server/common/data/UserModule.html)
+has a dashboard layout (for 1, 2, 3 columns).
 
 ### User roles
+
+A user has one of the following [roles](/apidocs/eblocker-icapserver/org/eblocker/server/common/data/UserRole.html):
 
 * Child
 * Parent
@@ -36,8 +40,9 @@ Parents (and Others) can lock a device out of the internet.
 
 ## User profiles
 
-Each user has an associated profile. (Some profiles are shared, but
-they are used only for default users.)
+Each user has an associated
+[profile](/apidocs/eblocker-icapserver/org/eblocker/server/common/data/UserProfileModule.html).
+(Some profiles are shared, but they are used only for default users.)
 
 A user profile defines restrictions, e.g. max daily usage, blocked
 domains, etc.
@@ -46,8 +51,9 @@ Multiple filter lists can be configured as accessible or inaccessible.
 
 ## Filter meta-data
 
-For each filter list – built-in or custom – there is a filter
-meta-data object that references lists stored on disk.
+For each filter list – built-in or custom – there is a
+[filter meta-data object](/apidocs/eblocker-icapserver/org/eblocker/server/common/data/parentalcontrol/ParentalControlFilterMetaData.html)
+that references lists stored on disk.
 
 The meta-data objects are associated with users in two ways:
 
