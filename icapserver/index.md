@@ -6,6 +6,8 @@ the user interface.
 
 [Pattern blocker](PatternBlocker.html)
 
+[Filter lists](FilterLists.html)
+
 [Sub-systems](SubSystems.html)
 
 [Parental controls](ParentalControls.html)
