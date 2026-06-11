@@ -38,8 +38,8 @@ See also: [PatternBlocker](PatternBlocker.html)
 The following entities are stored in Redis:
 
 * [ExternalDefinition](/apidocs/eblocker-icapserver/org/eblocker/server/common/blocker/ExternalDefinition.html)
-  stores meta-data for filter lists on disk. Lists were either
-  downloaded from the given URL or manually edited. The field
+  stores meta-data for user-defined filter lists on disk. Lists were
+  either downloaded from the given URL or manually edited. The field
   `referenceId` contains a reference to either a
   `ParentalControlFilterMetaData` object (for domain filters) or a
   `FilterStoreConfiguration` object.
